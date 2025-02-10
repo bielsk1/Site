@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Network Network</title>
+    <link rel="icon" type="image/png" href="fav.png">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1976d2;
+            --primary-light-color: #63a4ff;
+            --primary-dark-color: #004ba0;
+            --secondary-color: #ffffff;
+            --text-color: #333333;
+        }
+
+        body {
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fc;
+            color: var(--text-color);
+            opacity: 0;
+            animation: fadeIn 1s ease-in forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.8em;
+            font-weight: 300;
+            margin: 0;
+        }
+
+        .content {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .content h2 {
+            color: var(--primary-dark-color);
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 1.2em;
+            color: #666;
+            margin: 20px 0;
+        }
+
+        .price {
+            font-size: 1.5em;
+            color: var(--primary-color);
+            margin: 20px 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: var(--primary-light-color);
+            color: var(--secondary-color);
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: var(--primary-dark-color);
+        }
+
+        footer {
+            background-color: var(--primary-dark-color);
+            color: var(--secondary-color);
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin: 10px 0 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Checkout - Network Network</h1>
+    <p>Finalize sua compra</p>
+</header>
+
+<div class="content">
+    <h2>Entre no nosso discord e abra ticket.</h2>
+    <p>Para realizar a compra do nosso serviço, por favor, siga as instruções abaixo:</p>
+    <p>1. Clique no botão abaixo para ser redirecionado ao nosso servidor no Discord.</p>
+    <p>2. No Discord, envie uma mensagem para nossa equipe informando o serviço desejado.</p>
+    <p>3. O pagamento pode ser feito diretamente através do Discord.</p>
+
+    <a class="cta-button" href="https://discord.gg/UeEqkMRzKb" target="_blank">Ir para o Discord</a>
+</div>
+
+<footer>
+    <p>© Network. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
